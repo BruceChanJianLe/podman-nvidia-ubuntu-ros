@@ -70,7 +70,6 @@ then
     -v "/dev/input:/dev/input" \
     -v "/media:/media" \
     -v $(pwd)/../podman_mount:/home/developer/podman_mount \
-    --cap-add=SYS_PTRACE \
     --privileged \
     --security-opt seccomp=unconfined \
     --network host \
