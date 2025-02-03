@@ -15,7 +15,7 @@ usage() {
   Available options:
   -h, --help      Print this help and exit
   -u, --ubuntu    Set Ubuntu version [20/22/24]. Default 22.
-  -r, --ros       Set ROS version ROS1 / ROS2 / (ROS1 + ROS2) [1/2/3]. Default 3.
+  -r, --ros       Set ROS version ROS1 / ROS2 / (ROS1 + ROS2) [1/2/3]. Default 2.
   -n, --nvidia    Set true for NVIDIA cuda capabilities, otherwise false. Default true.
   -t, --runtime   Set true to build with NVIDIA runtime image, otherwise devel image. Default true.
 
